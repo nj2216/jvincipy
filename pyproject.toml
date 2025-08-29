@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jvincipy"
-version = "1.0.0"
+version = "1.0.1"
 description = "A Python DSL to write HTML using Python objects"
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [
@@ -19,9 +19,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/nj2216/pHTML"
-Repository = "https://github.com/nj2216/pHTML"
-Issues = "https://github.com/nj2216/pHTML/issues"
+Homepage = "https://github.com/nj2216/jvincipy"
+Repository = "https://github.com/nj2216/jvincipy"
+Issues = "https://github.com/nj2216/jvincipy/issues"
 
 [project.scripts]
 jvincipy = "jvincipy.cli:main"
