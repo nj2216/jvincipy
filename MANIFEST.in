@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+include CODE_OF_CONDUCT.md
+include CONTRIBUTING.md
+recursive-include jvincipy *.py

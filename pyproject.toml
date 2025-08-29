@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jvincipy"
+version = "0.1.0"
+description = "A Python DSL to write HTML using Python objects"
+readme = { file = "README.md", content-type = "text/markdown" }
+authors = [
+  { name = "Jeevan N", email = "njeevan2216@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.8"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/nj2216/pHTML"
+Repository = "https://github.com/nj2216/pHTML"
+Issues = "https://github.com/nj2216/pHTML/issues"
+
+[project.scripts]
+jvincipy = "jvincipy.cli:main"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.package-data]
+phtml = ["*.py"]
