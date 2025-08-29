@@ -40,7 +40,7 @@ Thanks for your interest in contributing! This document describes a simple, low-
 
 ## Security
 
-If you discover a security vulnerability, please **do not** open a public issue. Instead, email the maintainers directly (replace with your contact) or use the repository's security reporting mechanism.
+If you discover a security vulnerability, please **do not** open a public issue. Instead, email the maintainers directly (njeevan2216@gmail.com) or use the repository's security reporting mechanism.
 
 ## License
 
