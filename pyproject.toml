@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jvincipy"
-version = "0.1.0"
+version = "1.0.0"
 description = "A Python DSL to write HTML using Python objects"
 readme = { file = "README.md", content-type = "text/markdown" }
 authors = [

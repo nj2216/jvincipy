@@ -1,5 +1,52 @@
 # jvincipy — Python DSL for HTML
 
+[![PyPI version](https://badge.fury.io/py/jvincipy.svg)](https://pypi.org/project/jvincipy/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-nj2216%2Fjvincipy-blue?logo=github)](https://github.com/nj2216/jvincipy)
+
+---
+
+## Release
+
+jvincipy is available on PyPI: https://pypi.org/project/jvincipy/
+
+Install with:
+
+```bash
+pip install jvincipy
+```
+
+After installation, you can use the CLI (`jvincipy ...`) or import as a module in your Python code.
+
+---
+
+## Usage as a module
+
+You can use jvincipy directly in your Python scripts or applications:
+
+```python
+from jvincipy import div, p, h1
+
+page = div(
+    h1("Hello World!"),
+    p("This page was generated using jvincipy.")
+)
+html_str = page.render(pretty=True)
+print(html_str)
+```
+
+You can also use the CSS DSL:
+
+```python
+from jvincipy.css import Stylesheet, Rule
+
+sheet = Stylesheet()
+sheet.rules.append(Rule('body', {'margin': 0, 'color': 'black'}))
+print(sheet.rules[0].render())
+```
+
+See the `examples/` folder for more advanced usage, including Flask integration and CLI rendering.
+
 Extended project: full HTML5 tag coverage + CLI + Flask example
 
 This document contains the full project layout, implementation, CLI and a minimal Flask app that demonstrates serving rendered pages.
