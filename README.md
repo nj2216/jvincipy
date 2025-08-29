@@ -1,6 +1,6 @@
 # jvincipy — Python DSL for HTML
 
-[![PyPI version](https://badge.fury.io/py/jvincipy.svg)](https://pypi.org/project/jvincipy/)
+[![PyPI version](https://img.shields.io/pypi/v/jvincipy)](https://pypi.org/project/jvincipy/)
 
 [![GitHub](https://img.shields.io/badge/GitHub-nj2216%2Fjvincipy-blue?logo=github)](https://github.com/nj2216/jvincipy)
 
